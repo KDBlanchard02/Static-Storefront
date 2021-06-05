@@ -1,0 +1,236 @@
+/* Common Elements */
+body {
+    background-image: url(assets/woodfloor.png);
+    font-family: 'Tangerine',cursive;
+}
+div.clear {
+    clear:both;
+    font-size: 1%;
+}
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0 0 0 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a:hover {
+    background-color: #765245;
+    padding: 4px;
+    border: solid white 2px;
+    border-radius: 6px;
+}
+
+nav#utilityMenu {
+    float: right;
+    margin: -18px 20px 0 0;
+    padding: 2px 6px 6px 6px;
+    font-size: 40px;
+    background-color: black;
+}
+
+nav#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu ul {
+    height: 15px;
+    display: inline-block;
+}
+
+header {
+    margin: 2em;
+    padding: 2em;
+    background: url(assets/coffee-beans-background-ozgurcankaya.jpg) center 0px;
+    border-bottom: solid 4px black;
+    border-radius: 6px;
+}
+
+/* Body */
+
+.mainleft {
+    float: left;
+    margin: auto;
+}
+
+.mainRight {
+    float: right;
+    margin: auto;
+}
+
+div#shopNow {
+    border-right: solid 4px black;
+    border-bottom: solid 4px black;
+    border-radius: 6px;
+    display: inline-block;
+    background-image: url(assets/latte.jpg);
+    background-size: contain;
+    font-size: 80px;
+    position: relative;
+    width: 600px;
+    height: 361px;
+    margin-left: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+div#shopNow button {
+    margin-top: 55px;
+    margin-left: 170px;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 6px;
+    border-color: white;
+    background-color: #4e6b3d;
+    font-family: 'Tangerine',cursive;
+    font-size: 27px;
+}
+
+div#shopNow p {
+    margin-left: 35px;
+    margin-top: 60px;
+}
+
+div#story {
+    color: white;
+    font-size: 25px;
+    float: right;
+    width: 676px;
+    height: 400px;
+    background-image: url(assets/e807579edb93300913645941f251c97d.jpg);
+    background-size: contain;
+    margin-right: 2.6em;
+    margin-top: -1032px;
+    padding: 30px;
+    border-bottom: solid 4px black;
+    border-radius: 6px;
+    border-left: solid 4px black;
+}
+
+div#textOne {
+    font-size: 25px;
+    float: right;
+    text-align: right;
+    width:400px;
+    word-wrap: break-word;
+    margin-top: -60px;
+}
+
+div#story h2 {
+    text-align: right;
+    font-size: 75px;
+    margin-top: -15px;
+    margin-right: 30px;
+}
+
+section#topSelling {
+    width: 560px;
+    height: 600px;
+    background-image: url(assets/rghSVL.jpg);
+    background-size: contain;
+    border-radius: 6px;
+    border-top: solid 4px black;
+    border-right: solid 4px black;
+    border-bottom: solid 4px black;
+    margin: 2em 0 0 5em;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section#topSelling h2 {
+    color: white;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    text-decoration: underline 2px;
+    flex-basis: 100%;
+}
+
+div.topPanel1 {
+    width: 35%;
+    margin: 10px;
+    border-radius: 6px;
+}
+div.topPanel2 {
+    width: 35%;
+    margin: 10px;
+    border-radius: 6px;
+}
+div.topPanel3 {
+    width: 35%;
+    margin: 10px;
+    border-radius: 6px;
+}
+div.topPanel4 {
+    width: 35%;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+section#topSelling img {
+    width: 160px;
+    height: 120px;
+    border-radius: 6px;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    text-decoration: underline 2px;
+}
+
+footer {
+    background-color: #40362f;
+    height: 10px;
+    margin-top: 3em;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
