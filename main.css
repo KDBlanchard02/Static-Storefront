@@ -171,32 +171,42 @@ div.topPanel1 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
+    background-color: blanchedalmond;
+    border: ridge 2px black;
 }
 div.topPanel2 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
+    background-color: blanchedalmond;
+    border: ridge 2px black;
 }
 div.topPanel3 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
+    background-color: blanchedalmond;
+    border: ridge 2px black;
 }
 div.topPanel4 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
+    background-color: blanchedalmond;
+    border: ridge 2px black;
 }
 
 section#topSelling img {
     width: 160px;
     height: 120px;
     border-radius: 6px;
+    border: solid 2px black;
+    justify-content: center;
 }
 
 h3 {
     font-size: 30px;
-    color: white;
+    color: black;
     text-decoration: underline 2px;
 }
 
