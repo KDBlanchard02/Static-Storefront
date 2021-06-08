@@ -207,11 +207,6 @@ section#topSelling img {
     border: solid 2px black;
 }
 
-section#topSelling img a:hover {
-    background-color: #4e6b3d;
-    border-radius: 6px;
-}
-
 h3 {
     font-size: 30px;
     color: black;
