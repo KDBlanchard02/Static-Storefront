@@ -173,6 +173,7 @@ div.topPanel1 {
     border-radius: 6px;
     background-color: blanchedalmond;
     border: ridge 2px black;
+    text-align: center;
 }
 div.topPanel2 {
     width: 35%;
@@ -180,6 +181,7 @@ div.topPanel2 {
     border-radius: 6px;
     background-color: blanchedalmond;
     border: ridge 2px black;
+    text-align: center;
 }
 div.topPanel3 {
     width: 35%;
@@ -187,6 +189,7 @@ div.topPanel3 {
     border-radius: 6px;
     background-color: blanchedalmond;
     border: ridge 2px black;
+    text-align: center;
 }
 div.topPanel4 {
     width: 35%;
@@ -194,6 +197,7 @@ div.topPanel4 {
     border-radius: 6px;
     background-color: blanchedalmond;
     border: ridge 2px black;
+    text-align: center;
 }
 
 section#topSelling img {
@@ -201,7 +205,11 @@ section#topSelling img {
     height: 120px;
     border-radius: 6px;
     border: solid 2px black;
-    justify-content: center;
+}
+
+section#topSelling img a:hover {
+    background-color: #4e6b3d;
+    border-radius: 6px;
 }
 
 h3 {
