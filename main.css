@@ -207,6 +207,14 @@ section#topSelling img {
     border: solid 2px black;
 }
 
+section#topSelling img:hover {
+    visibility: visible;
+    width: 170px;
+    height: 130px;
+    border-radius: 6px;
+    border: solid 2px black;
+}
+
 h3 {
     font-size: 30px;
     color: black;
