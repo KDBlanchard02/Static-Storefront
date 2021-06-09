@@ -78,6 +78,7 @@ header {
 div#shopNow {
     border-right: solid 4px black;
     border-bottom: solid 4px black;
+    border-top: solid 4px black;
     border-radius: 6px;
     display: inline-block;
     background-image: url(assets/latte.jpg);
@@ -123,6 +124,7 @@ div#story {
     border-bottom: solid 4px black;
     border-radius: 6px;
     border-left: solid 4px black;
+    border-top: solid 4px black;
 }
 
 div#textOne {
