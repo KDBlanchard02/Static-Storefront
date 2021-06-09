@@ -163,6 +163,7 @@ section#topSelling h2 {
     font-size: 55px;
     margin-top: 10px;
     margin-bottom: auto;
+    margin-left: 62px;
     text-decoration: underline 2px;
     flex-basis: 100%;
 }
