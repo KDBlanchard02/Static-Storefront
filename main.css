@@ -174,7 +174,8 @@ div.topPanel1 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
-    background-color: blanchedalmond;
+    background-image: url(assets/woodfloor.png);
+    background-size: contain;
     border: ridge 2px black;
     text-align: center;
 }
@@ -182,7 +183,8 @@ div.topPanel2 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
-    background-color: blanchedalmond;
+    background-image: url(assets/woodfloor.png);
+    background-size: contain;
     border: ridge 2px black;
     text-align: center;
 }
@@ -190,7 +192,8 @@ div.topPanel3 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
-    background-color: blanchedalmond;
+    background-image: url(assets/woodfloor.png);
+    background-size: contain;
     border: ridge 2px black;
     text-align: center;
 }
@@ -198,7 +201,8 @@ div.topPanel4 {
     width: 35%;
     margin: 10px;
     border-radius: 6px;
-    background-color: blanchedalmond;
+    background-image: url(assets/woodfloor.png);
+    background-size: contain;
     border: ridge 2px black;
     text-align: center;
 }
@@ -220,8 +224,10 @@ section#topSelling img:hover {
 
 h3 {
     font-size: 30px;
-    color: black;
+    color: white;
     text-decoration: underline 2px;
+    font-style: bold;
+    text-shadow: 1px 1px black;
 }
 
 footer {
